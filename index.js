@@ -21,11 +21,11 @@ function currentLine(current) {
   var numberedline = [];
   
   if (current.lenth === 0) {
-    console.log("The line is currently empty.") } else {
+    return "The line is currently empty." } else {
+    
     for(var n = 0; n < current.length; n++) { 
       numberedline[n] = (n+1) + "." + current[n];
     }
-  }
-    
     return "The line is currently:" + numberedline.join(", ");
+}
 }
