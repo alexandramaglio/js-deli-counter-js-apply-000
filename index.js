@@ -13,7 +13,7 @@ function nowServing(current) {
   
   if(current.length === 0) {
     console.log("There is nobody waiting to be served!") } else {
-      console.log("Currently serving " + current[0] + " .");
+      console.log("Currently serving " + current[0] + ".");
     }
 
   current.shift(); 
