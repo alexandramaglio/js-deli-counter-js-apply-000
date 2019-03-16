@@ -17,7 +17,7 @@ function nowServing(current) {
     }
 
   current.shift(); 
-  return newline;
+  return current;
 }
     
 
