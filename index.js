@@ -1,7 +1,7 @@
 var katzDeliLine = [];
 
 function takeANumber(current, newperson) {
-  
+  int personnumber;
   current.push(newperson);
   personnumber = current.indexOf(newperson) + 1;
   
