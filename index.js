@@ -22,11 +22,11 @@ function nowServing(current) {
     
 
 function currentLine(current) {
-  
+  var numberedline = [];
   if (current.lenth===0) {
     console.log("The line is currently empty.")
   } else {
-    console.log("The line is currently:" +
-    for(n=0; n<current.length(); n++) {
+    for(n=0; n<current.length; n++) { 
+      numbered 
     
 }
