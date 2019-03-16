@@ -27,6 +27,8 @@ function currentLine(current) {
     console.log("The line is currently empty.")
   } else {
     for(n=0; n<current.length; n++) { 
-      numberedline[n] = (n+1) + ".";
+      numberedline[n] = (n+1) + "." + current[n];
     }
+    
+    return ""
 }
