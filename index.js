@@ -2,7 +2,7 @@ function takeANumber(current, newperson) {
   var personnumber;
   current.push(newperson);
   
-  personnumber = current.length - 1;
+  personnumber = current.length;
 
   return "Welcome, " + newperson + ". You are number " + personnumber + " in line.";
 }
