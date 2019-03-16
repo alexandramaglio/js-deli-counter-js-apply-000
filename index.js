@@ -3,7 +3,7 @@ var katzDeliLine = [];
 function takeANumber(current, newperson) {
   
   current.push(newperson);
-  personnumber = current[]
+  personnumber = current.indexof
   
   return "Welcome, " + newperson + ". You are number " + personnumber + " in line.";
   
