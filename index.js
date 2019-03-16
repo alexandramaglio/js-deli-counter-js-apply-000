@@ -22,7 +22,7 @@ function currentLine(current) {
   var currentlinecopy = current.slice();
   var numberedline = [];
   
-  if (currentlinecopy.lenth === 0) {
+  if (currentlinecopy.length === 0) {
     return "The line is currently empty." } else {
     
     for(var n = 0; n < current.length; n++) { 
