@@ -30,5 +30,5 @@ function currentLine(current) {
       numberedline[n] = (n+1) + "." + current[n];
     }
     
-    return "The line is currently:"
+    return "The line is currently:" + numberedline.join(", ");
 }
