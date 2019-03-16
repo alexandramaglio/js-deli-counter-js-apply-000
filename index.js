@@ -14,7 +14,7 @@ function nowServing(current) {
   var oldline = current;
   current.shift();
   
-  if(current.length === 0) {
+  if(oldline.length === 0) {
     return "There is nobody waiting to be served!" } else {
       return "Currently serving " + oldline[0] + ".";
     }
