@@ -12,16 +12,16 @@ function nowServing(current) {
   
   if(oldline.length === 0) {
     return "There is nobody waiting to be served!" } else {
-      return "Currently serving " + oldline[0] + ".";
+    return "Currently serving " + oldline[0] + ".";
     }
 }
     
 
 function currentLine(current) {
   var numberedline = [];
-  if (current.lenth===0) {
-    console.log("The line is currently empty.")
-  } else {
+  
+  if (current.lenth === 0) {
+    console.log("The line is currently empty.") } else {
     for(var n = 0; n < current.length; n++) { 
       numberedline[n] = (n+1) + "." + current[n];
     }
