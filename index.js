@@ -1,6 +1,7 @@
 function takeANumber(current, newperson) {
   var personnumber;
   current.push(newperson);
+  
   personnumber = current.indexOf(newperson) + 1;
 
   return "Welcome, " + newperson + ". You are number " + personnumber + " in line.";
