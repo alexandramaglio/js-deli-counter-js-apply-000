@@ -11,13 +11,13 @@ function takeANumber(current, newperson) {
 
 function nowServing(current) {
   
+  var oldline = current;
+  current.shift();
+  
   if(current.length === 0) {
-    console.log("There is nobody waiting to be served!") } else {
-      console.log("Currently serving " + current[0] + ".");
+    return "There is nobody waiting to be served!" } else {
+      return "Currently serving " + oldline[0] + ".";
     }
-
-  current.shift(); 
-  return current;
 }
     
 
