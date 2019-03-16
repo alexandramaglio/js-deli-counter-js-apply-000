@@ -12,8 +12,8 @@ function takeANumber(current, newperson) {
 function nowServing(current) {
   
   if(current.length === 0) {
-    return "There is nobody waiting to be served!" } else {
-      return "Currently serving " + current[0] + " .";
+    console.log("There is nobody waiting to be served!") } else {
+      console.log("Currently serving " + current[0] + " .");
     }
 
   current.shift(); 
