@@ -16,7 +16,7 @@ function nowServing(current) {
   }
   
   return "Currently serving " + current[0] + " .";
-  
+  current = current.shift(); 
 }
     
 
