@@ -11,8 +11,14 @@ function takeANumber(current, newperson) {
 
 function nowServing(current) {
   
+  if(current.length === 0) {
+    return "There is nobody waiting to be served!";
+  }
+  
+  return "Currently serving " + current[0] + " .";
   
 }
+    
 
 function currentLine(current) {
   
