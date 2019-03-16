@@ -24,7 +24,7 @@ function currentLine(current) {
     return "The line is currently empty." } else {
     
     for(var n = 0; n < current.length; n++) { 
-      numberedline[n] = (n+1) + "." + current[n];
+      numberedline[n] = (n+1) + ". " + current[n];
     }
     return "The line is currently: " + numberedline.join(", ");
 }
