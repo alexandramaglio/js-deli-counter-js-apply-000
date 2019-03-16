@@ -15,7 +15,8 @@ function nowServing(current) {
     return "There is nobody waiting to be served!" } else {
       return "Currently serving " + current[0] + " ."
     }
-  return current = current.shift(); 
+  current = current.shift(); 
+  return current;
 }
     
 
