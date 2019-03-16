@@ -11,7 +11,7 @@ function takeANumber(current, newperson) {
 
 function nowServing(current) {
   
-  var oldline = current;
+  var oldline = current.slice();
   current.shift();
   
   if(oldline.length === 0) {
